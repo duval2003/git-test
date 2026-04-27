@@ -193,6 +193,9 @@
   .static {
     position: static;
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -216,6 +219,9 @@
   }
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
+  }
+  .mt-50 {
+    margin-top: calc(var(--spacing) * 50);
   }
   .mt-60 {
     margin-top: calc(var(--spacing) * 60);
