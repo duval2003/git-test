@@ -332,6 +332,9 @@
   .bg-purple-700 {
     background-color: var(--color-purple-700);
   }
+  .bg-\[url\(\.\/asset\/images\/bg\.png\)\] {
+    background-image: url(./asset/images/bg.png);
+  }
   .bg-\[url\(\/asset\/images\/bg\.png\)\] {
     background-image: url(/asset/images/bg.png);
   }
